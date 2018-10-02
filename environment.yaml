@@ -1,20 +1,29 @@
 name: flaskblog
 channels:
+  - conda-forge
   - defaults
 dependencies:
+  - blinker=1.4=py_1
+  - flask-mail=0.9.1=py_2
   - ca-certificates=2018.03.07=0
   - certifi=2018.8.24=py37_1
   - click=6.7=py37_0
   - flask=1.0.2=py37_1
+  - freetype=2.9.1=h8a8886c_1
   - itsdangerous=0.24=py37_1
   - jinja2=2.10=py37_0
+  - jpeg=9b=h024ee3a_2
   - libedit=3.1.20170329=h6b74fdf_2
   - libffi=3.2.1=hd88cf55_4
   - libgcc-ng=8.2.0=hdf63c60_1
+  - libpng=1.6.34=hb9fc6fc_0
   - libstdcxx-ng=8.2.0=hdf63c60_1
+  - libtiff=4.0.9=he85c1e1_2
   - markupsafe=1.0=py37h14c3975_1
   - ncurses=6.1=hf484d3e_0
+  - olefile=0.45.1=py37_0
   - openssl=1.0.2p=h14c3975_0
+  - pillow=5.2.0=py37heded4f4_0
   - pip=10.0.1=py37_0
   - python=3.7.0=hc3d631a_0
   - readline=7.0=h7b6447c_5
@@ -26,5 +35,15 @@ dependencies:
   - wheel=0.31.1=py37_0
   - xz=5.2.4=h14c3975_4
   - zlib=1.2.11=ha838bed_2
+  - pip:
+    - bcrypt==3.1.4
+    - cffi==1.11.5
+    - flask-bcrypt==0.7.1
+    - flask-login==0.4.1
+    - flask-sqlalchemy==2.3.2
+    - flask-wtf==0.14.2
+    - pycparser==2.18
+    - six==1.11.0
+    - wtforms==2.2.1
 prefix: /home/yurii/anaconda3/envs/flaskblog
 
